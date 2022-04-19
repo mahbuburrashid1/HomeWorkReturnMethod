@@ -46,7 +46,7 @@ public class ReturnTypeMethodWithOutParameter {
 
         public boolean tomorrowsunday() {
             boolean tomorrowIsOff=true;
-            System.out.println("Office is off tomorrow ? "+"\n" +tomorrowIsOff);
+            System.out.println("Office is off tomorrow: " +tomorrowIsOff);
             return tomorrowIsOff;
         }
 

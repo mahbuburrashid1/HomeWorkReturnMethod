@@ -45,7 +45,7 @@ public class CreateCalculator {
         int div2 = calculator.nextInt();
         int totalDiv = div1 / div2;
         System.out.println("total Division   " + totalDiv);
-
+        calculator.close();
 
     }
 
